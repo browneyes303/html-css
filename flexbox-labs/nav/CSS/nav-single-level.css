@@ -1,0 +1,38 @@
+/* Styles for Single Level Menu */
+
+.single-nav ul{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+/* Advanced Menu */
+
+.advanced-nav ul{
+    width: 100%;
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.advanced-nav span{
+    font-size: 10px;
+    font-style: italic;
+    display: flex;
+}
+
+.advanced-nav div{
+    display: inline-block;
+}
+
+
+/* Social Menu */
+
+.social-menu ul{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
